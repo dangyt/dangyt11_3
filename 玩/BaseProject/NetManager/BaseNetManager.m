@@ -69,21 +69,6 @@ static AFHTTPSessionManager *manager = nil;
     }];
 }
 
-+ (NSString *)pathWithPercent:(NSString *)path params:(NSDictionary *)params{
-    NSMutableString *fullPath = [[NSMutableString alloc] initWithString:path];
-    NSArray *keys = params.allKeys;
-    for (int i = 0; i < keys.count; i++) {
-        if (i == 0) {
-            [fullPath appendString:@"?"];
-        }else if(i == keys.count - 1){
-            [fullPath appendFormat:@"%@=%@", keys[i], params[keys[i]]];
-        }else{
-            [fullPath appendFormat:@"%@=%@&", keys[i], params[keys[i]]];
-        }
-    }
-    return [fullPath stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-}
-
 
 
 
