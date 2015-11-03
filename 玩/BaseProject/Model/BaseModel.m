@@ -11,5 +11,9 @@
 @implementation BaseModel
 
 MJCodingImplementation
++(NSDictionary *)replacedKeyFromPropertyName
+{
+    return @{@"ID":@"id",@"desc":@"description"};
+}
 
 @end

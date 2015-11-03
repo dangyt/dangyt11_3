@@ -21,14 +21,12 @@
 		3886C0AE1BD749A00014E661 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3886C0AD1BD749A00014E661 /* LaunchScreen.xib */; };
 		3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BA1BD74AE90014E661 /* BaseViewModel.m */; };
 		3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */; };
-		3886C0C11BD74B090014E661 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0C01BD74B090014E661 /* BaseModel.m */; };
 		8597179B1BE740A0008CD073 /* TuWanBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8597179A1BE740A0008CD073 /* TuWanBaseModel.m */; };
 		859717A11BE748CB008CD073 /* FreeHeroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717A01BE748CB008CD073 /* FreeHeroModel.m */; };
 		859717A41BE748F6008CD073 /* AllHerosMOdel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717A31BE748F6008CD073 /* AllHerosMOdel.m */; };
 		859717A71BE74A9C008CD073 /* HeroSkinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717A61BE74A9C008CD073 /* HeroSkinModel.m */; };
 		859717AA1BE74AAE008CD073 /* HeroVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717A91BE74AAE008CD073 /* HeroVideoModel.m */; };
 		859717AD1BE74BF2008CD073 /* HeroCZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717AC1BE74BF2008CD073 /* HeroCZModel.m */; };
-		859717B01BE74CD5008CD073 /* HeroSoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717AF1BE74CD5008CD073 /* HeroSoundModel.m */; };
 		859717B31BE74D44008CD073 /* HeroDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717B21BE74D44008CD073 /* HeroDetailModel.m */; };
 		859717B91BE74FE2008CD073 /* HeroGiftAndRunModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717B81BE74FE2008CD073 /* HeroGiftAndRunModel.m */; };
 		859717BC1BE7503F008CD073 /* HeroChangeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717BB1BE7503F008CD073 /* HeroChangeModel.m */; };
@@ -41,7 +39,9 @@
 		859717D11BE77322008CD073 /* RuneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717D01BE77322008CD073 /* RuneModel.m */; };
 		859717D41BE77681008CD073 /* SumAbilityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717D31BE77681008CD073 /* SumAbilityModel.m */; };
 		859717D71BE77771008CD073 /* BestGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 859717D61BE77771008CD073 /* BestGroupModel.m */; };
-		85F8ABD81BE7351D002FCB22 /* XimalayaBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F8ABD71BE7351D002FCB22 /* XimalayaBaseModel.m */; };
+		85A5E23C1BE85B5A00729191 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5E23B1BE85B5A00729191 /* BaseModel.m */; };
+		85A5E23F1BE85BD900729191 /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5E23E1BE85BD900729191 /* AlbumModel.m */; };
+		85A5E2421BE85C3700729191 /* RankListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5E2411BE85C3700729191 /* RankListModel.m */; };
 		85F92FEC1BE848C9005DEC9F /* DuoWanNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F92FEB1BE848C9005DEC9F /* DuoWanNetManager.m */; };
 		85F92FEF1BE848DA005DEC9F /* TuWanNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F92FEE1BE848DA005DEC9F /* TuWanNetManager.m */; };
 		85F92FF21BE848E6005DEC9F /* XiMaNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F92FF11BE848E6005DEC9F /* XiMaNetManager.m */; };
@@ -73,8 +73,6 @@
 		3886C0BA1BD74AE90014E661 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
 		3886C0BC1BD74AFE0014E661 /* BaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetManager.h; sourceTree = "<group>"; };
 		3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetManager.m; sourceTree = "<group>"; };
-		3886C0BF1BD74B090014E661 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
-		3886C0C01BD74B090014E661 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		3886C0C21BD74B430014E661 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,8 +88,6 @@
 		859717A91BE74AAE008CD073 /* HeroVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroVideoModel.m; sourceTree = "<group>"; };
 		859717AB1BE74BF2008CD073 /* HeroCZModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroCZModel.h; sourceTree = "<group>"; };
 		859717AC1BE74BF2008CD073 /* HeroCZModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroCZModel.m; sourceTree = "<group>"; };
-		859717AE1BE74CD5008CD073 /* HeroSoundModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroSoundModel.h; sourceTree = "<group>"; };
-		859717AF1BE74CD5008CD073 /* HeroSoundModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroSoundModel.m; sourceTree = "<group>"; };
 		859717B11BE74D44008CD073 /* HeroDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroDetailModel.h; sourceTree = "<group>"; };
 		859717B21BE74D44008CD073 /* HeroDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDetailModel.m; sourceTree = "<group>"; };
 		859717B71BE74FE2008CD073 /* HeroGiftAndRunModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroGiftAndRunModel.h; sourceTree = "<group>"; };
@@ -116,8 +112,12 @@
 		859717D31BE77681008CD073 /* SumAbilityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityModel.m; sourceTree = "<group>"; };
 		859717D51BE77771008CD073 /* BestGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupModel.h; sourceTree = "<group>"; };
 		859717D61BE77771008CD073 /* BestGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupModel.m; sourceTree = "<group>"; };
-		85F8ABD61BE7351D002FCB22 /* XimalayaBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XimalayaBaseModel.h; sourceTree = "<group>"; };
-		85F8ABD71BE7351D002FCB22 /* XimalayaBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XimalayaBaseModel.m; sourceTree = "<group>"; };
+		85A5E23A1BE85B5A00729191 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		85A5E23B1BE85B5A00729191 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		85A5E23D1BE85BD900729191 /* AlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumModel.h; sourceTree = "<group>"; };
+		85A5E23E1BE85BD900729191 /* AlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumModel.m; sourceTree = "<group>"; };
+		85A5E2401BE85C3700729191 /* RankListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankListModel.h; sourceTree = "<group>"; };
+		85A5E2411BE85C3700729191 /* RankListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankListModel.m; sourceTree = "<group>"; };
 		85F92FEA1BE848C9005DEC9F /* DuoWanNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanNetManager.h; sourceTree = "<group>"; };
 		85F92FEB1BE848C9005DEC9F /* DuoWanNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanNetManager.m; sourceTree = "<group>"; };
 		85F92FED1BE848DA005DEC9F /* TuWanNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanNetManager.h; sourceTree = "<group>"; };
@@ -212,11 +212,11 @@
 		3886C0B01BD74A4A0014E661 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				85A5E23A1BE85B5A00729191 /* BaseModel.h */,
+				85A5E23B1BE85B5A00729191 /* BaseModel.m */,
 				85F8ABCD1BE734CE002FCB22 /* 多玩 */,
 				85F8ABCE1BE734CE002FCB22 /* 兔玩 */,
 				85F8ABCF1BE734CE002FCB22 /* 喜马拉雅 */,
-				3886C0BF1BD74B090014E661 /* BaseModel.h */,
-				3886C0C01BD74B090014E661 /* BaseModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,8 +324,6 @@
 				859717D31BE77681008CD073 /* SumAbilityModel.m */,
 				859717D51BE77771008CD073 /* BestGroupModel.h */,
 				859717D61BE77771008CD073 /* BestGroupModel.m */,
-				859717AE1BE74CD5008CD073 /* HeroSoundModel.h */,
-				859717AF1BE74CD5008CD073 /* HeroSoundModel.m */,
 			);
 			path = "多玩";
 			sourceTree = "<group>";
@@ -342,8 +340,10 @@
 		85F8ABCF1BE734CE002FCB22 /* 喜马拉雅 */ = {
 			isa = PBXGroup;
 			children = (
-				85F8ABD61BE7351D002FCB22 /* XimalayaBaseModel.h */,
-				85F8ABD71BE7351D002FCB22 /* XimalayaBaseModel.m */,
+				85A5E2401BE85C3700729191 /* RankListModel.h */,
+				85A5E2411BE85C3700729191 /* RankListModel.m */,
+				85A5E23D1BE85BD900729191 /* AlbumModel.h */,
+				85A5E23E1BE85BD900729191 /* AlbumModel.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -489,10 +489,10 @@
 			files = (
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				859717AD1BE74BF2008CD073 /* HeroCZModel.m in Sources */,
+				85A5E23C1BE85B5A00729191 /* BaseModel.m in Sources */,
 				859717B31BE74D44008CD073 /* HeroDetailModel.m in Sources */,
 				859717C21BE750F2008CD073 /* GameCateGoryListModel.m in Sources */,
 				859717AA1BE74AAE008CD073 /* HeroVideoModel.m in Sources */,
-				859717B01BE74CD5008CD073 /* HeroSoundModel.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				859717D71BE77771008CD073 /* BestGroupModel.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
@@ -504,7 +504,6 @@
 				859717D11BE77322008CD073 /* RuneModel.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
-				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				859717C51BE76BF5008CD073 /* ZBCategoryModel.m in Sources */,
 				859717CB1BE76E24008CD073 /* ItemDetailModel.m in Sources */,
 				859717B91BE74FE2008CD073 /* HeroGiftAndRunModel.m in Sources */,
@@ -515,8 +514,9 @@
 				859717D41BE77681008CD073 /* SumAbilityModel.m in Sources */,
 				85F92FF21BE848E6005DEC9F /* XiMaNetManager.m in Sources */,
 				859717A71BE74A9C008CD073 /* HeroSkinModel.m in Sources */,
-				85F8ABD81BE7351D002FCB22 /* XimalayaBaseModel.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,
+				85A5E2421BE85C3700729191 /* RankListModel.m in Sources */,
+				85A5E23F1BE85BD900729191 /* AlbumModel.m in Sources */,
 				85F92FEF1BE848DA005DEC9F /* TuWanNetManager.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
 				859717A11BE748CB008CD073 /* FreeHeroModel.m in Sources */,

@@ -28,6 +28,10 @@
 + (NSDictionary *)objectClassInArray{
     return @{@"showitem" : [TuWanDataIndexpicInfoChildShowitemModel class]};
 }
++(NSDictionary *)replacedKeyFromPropertyName
+{
+    return @{@"typeName": @"typename", @"desc": @"description"};
+}
 
 @end
 

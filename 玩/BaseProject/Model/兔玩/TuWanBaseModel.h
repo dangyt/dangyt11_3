@@ -44,7 +44,7 @@
 
 @property (nonatomic, copy) NSString *longtitle;
 
-@property (nonatomic, copy) NSString *typename;
+@property (nonatomic, copy) NSString *typeName;
 
 @property (nonatomic, copy) NSString *html5;
 
@@ -78,7 +78,7 @@
 
 @property (nonatomic, copy) NSString *comment;
 
-@property (nonatomic, copy) NSString *description;
+@property (nonatomic, copy) NSString *desc;
 
 @end
 
